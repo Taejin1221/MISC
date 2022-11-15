@@ -1,0 +1,20 @@
+table {
+  display: flex;
+  justify-content: center;
+}
+
+td {
+  padding: 50px;
+}
+
+#displayContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}

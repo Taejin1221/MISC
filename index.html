@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resistor Calculator</title>
+    <meta author="Taejin" />
+    <meta charset="utf-8" />
+
+    <link href="main.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Choose colors</h1>
+
+    <table id="chooseTable">
+      <tr>
+        <td id="firstTableColor" style="background-color: black;"></td>
+        <td id="secondTableColor" style="background-color: black;"></td>
+        <td id="thirdTableColor" style="background-color: black;"></td>
+        <td id="fourthTableColor" style="background-color: black;"></td>
+      </tr>
+      <tr>
+        <td id="firstTableText" >black</td>
+        <td id="secondTableText" >black</td>
+        <td id="thirdTableText" >black</td>
+        <td id="fourthTableText" >black</td>
+      </tr>
+    </table>
+    <div id="displayContainer">
+      <h2>Result: </h2>
+      <h2 id="display">0Ω ± 0%</h2>
+    </div>
+
+    <div class="buttonContainer" id="firstColor">
+      <h3>First color: </h3>
+    </div>
+    <div class="buttonContainer" id="secondColor">
+      <h3>Second color: </h3>
+    </div>
+    <div class="buttonContainer" id="thirdColor">
+      <h3>Third color: </h3>
+    </div>
+    <div class="buttonContainer" id="fourthColor">
+      <h3>Fourth color: </h3>
+    </div>
+
+    <button id="calculate">Calculate!</button>
+
+    <script type="text/javascript" src="resiCalculator.js"></script>
+  </body>
+</html>
